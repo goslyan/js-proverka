@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <div class="person_info">
+            <label for="name">Имя</label>
+            <input type="text" name="Имя" id="name">
+            <label for="fname">Фамилия</label>
+            <input type="text" name="Фамилия" id="name">
+            <label for="dater">Дата рождения</label>
+            <input type="date" name="Возраст" id="date">
+            <p>Наличие детей</p>
+            <input type="checkbox" name="дети" id="check">
+        </div>
+        <div class="job_info">
+            <label for="worker">Должность</label>
+            <select name="Должность" id="worker">
+                <option value="0">Выберите должность</option>
+                <option value="1">Слесарь</option>
+                <option value="2">Водитель</option>
+            </select>
+            <label for="organization">Организация</label>
+            <input type="text" name="Организация" id="organization">
+            <label for="discharge">Разряд</label>
+            <input type="text" name="Разряд" id="discharge">
+            <label for="datew">Дата принятия на работу</label>
+            <input type="date" name="Дата принятия" id="datew">
+        </div>
+        <div class="btn">
+            <button class="btn_save">Сохранить</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
