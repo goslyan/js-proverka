@@ -17,7 +17,7 @@ form {
     padding: 20px 20px;
     background: black;
     color: white;
-    background:linear-gradient(45deg,rgb(231, 61, 89),blue) border-box;
+    background:linear-gradient(135deg,rgb(231, 61, 89),blue) border-box;
     margin-top: 310px;
 }
 
@@ -39,6 +39,38 @@ p {
     border-radius: 10px;
 }
 
+.container-table {
+    margin-top: 5rem;
+}
+
 .table {
-    margin-top: 300px;
+    background:linear-gradient(135deg,rgb(231, 61, 89),blue) border-box;
+    border-collapse: collapse;
+    margin: auto
+}
+
+.block {
+    padding: 25px 50px;
+    border: 2px solid rgb(85, 58, 25);
+    font-size: 15px
+}
+
+.block-button {
+    padding: 0;
+}
+
+.block_button {
+    padding: 25px 50px;
+    border: none;
+    background: #000;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dNone {
+    display: none
+}
+
+.string-clone td {
+    background: purple;
 }

@@ -13,7 +13,7 @@
             <label for="name">Имя</label>
             <input type="text" name="Имя" id="name">
             <label for="fname">Фамилия</label>
-            <input type="text" name="Фамилия" id="name">
+            <input type="text" name="Фамилия" id="fname">
             <label for="dater">Дата рождения</label>
             <input type="date" name="Возраст" id="date">
             <p>Наличие детей</p>
@@ -34,9 +34,32 @@
             <input type="date" name="Дата принятия" id="datew">
         </div>
         <div class="btn">
-            <button class="btn_save">Сохранить</button>
+            <input type="submit" value="Сохранить" class="btn_save"></input>
         </div>
     </form>
+    <div class="container-table">
+        <table class="table">
+            <tr class="string">
+                <td class="block">Имя</td>
+                <td class="block">Фамилия</td>
+                <td class="block">Дата рождения</td>
+                <td class="block">Наличие детей</td>
+                <td class="block">Должность</td>
+                <td class="block">Разряд</td>
+                <td class="block">Дата принятия на работу</td>
+                <td class="block"></td>
+            </tr>
+            <tr class="string string-clone dNone">
+                <td class="block block_name"></td>
+                <td class="block block_secname"></td>
+                <td class="block block_birthday"></td>
+                <td class="block block_child"></td>
+                <td class="block block_org"></td>
+                <td class="block block_dis"></td>
+                <td class="block block_date"></td>
+                <td class="block block-button"><button class="block_button delete-button">Удалить</button></td>
+            </tr>
+        </table>
     <script src="script.js"></script>
 </body>
 </html>
